@@ -49,8 +49,9 @@ List the ready features here:
 ## Screenshots
 Application screen review
 ### Główny ekran aplikacji
+
 <p align="center">
-	<img scr="./ZPI/screenshot/app_main_screen.png" width="250">
+	<img scr="travel-planner/ZPI/screenshot/app_main_screen.png" width="250" >
 </p>
 
 ### Ekrany wycieczki
