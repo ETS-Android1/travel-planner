@@ -50,17 +50,17 @@ List the ready features here:
 Application screen review
 ### Główny ekran aplikacji
 <p align="center">
-	<img scr="./screenshots/app_main_screen.png" width="250">
+	<img scr="./ZPI/screenshot/app_main_screen.png" width="250">
 </p>
 
 ### Ekrany wycieczki
 
 <p align="center">
-	<img scr="./screenshots/trip_main_screen.png" width="250">
-	<img scr="./screenshots/todo_screen.png" width="250">
-	<img scr="./screenshots/trip_plan_screen.png" width="250">
-	<img scr="./screenshots/map_screen.png" width="250">
-	<img scr="./screenshots/settlements_screen.png" width="250">
+	<img scr="./ZPI/screenshot/trip_main_screen.png" width="250">
+	<img scr="./ZPI/screenshot/todo_screen.png" width="250">
+	<img scr="./ZPI/screenshot/trip_plan_screen.png" width="250">
+	<img scr="./ZPI/screenshot/map_screen.png" width="250">
+	<img scr="./ZPI/screenshot/settlements_screen.png" width="250">
 </p>
 
 ## Setup
