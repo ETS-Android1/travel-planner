@@ -661,7 +661,9 @@ public class MapsFragment extends Fragment implements GoogleMap.OnInfoWindowClic
                 tripPointLocationList.clear();
                 tripPointLocationList = new ArrayList<>();
             }
+            DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
             try {
+                chosenDate = dateFormat.parse("2022-05-10");
                 tripPointList = new TripPointDao(BaseConnection.getConnectionSource()).getTripPointsForToday(trip, chosenDate);
                 TripPointLocationDao tripPointLocationDao = new TripPointLocationDao(BaseConnection.getConnectionSource());
                 for (TripPoint point : tripPointList) {
@@ -673,6 +675,8 @@ public class MapsFragment extends Fragment implements GoogleMap.OnInfoWindowClic
                 });
             } catch (SQLException throwables) {
                 throwables.printStackTrace();
+            } catch (ParseException e) {
+                e.printStackTrace();
             }
         }).start();
     }
