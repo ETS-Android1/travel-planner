@@ -51,17 +51,17 @@ Application screen review
 ### Główny ekran aplikacji
 
 <p align="center">
-	<img scr="travel-planner/ZPI/screenshot/app_main_screen.png" width="250" >
+	<img src="travel-planner/ZPI/screenshot/app_main_screen.png" width="250" >
 </p>
 
 ### Ekrany wycieczki
 
 <p align="center">
-	<img scr="./ZPI/screenshot/trip_main_screen.png" width="250">
-	<img scr="./ZPI/screenshot/todo_screen.png" width="250">
-	<img scr="./ZPI/screenshot/trip_plan_screen.png" width="250">
-	<img scr="./ZPI/screenshot/map_screen.png" width="250">
-	<img scr="./ZPI/screenshot/settlements_screen.png" width="250">
+	<img src="./ZPI/screenshot/trip_main_screen.png" width="250">
+	<img src="./ZPI/screenshot/todo_screen.png" width="250">
+	<img src`="./ZPI/screenshot/trip_plan_screen.png" width="250">
+	<img src="./ZPI/screenshot/map_screen.png" width="250">
+	<img src="./ZPI/screenshot/settlements_screen.png" width="250">
 </p>
 
 ## Setup
