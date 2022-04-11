@@ -1,6 +1,6 @@
 # Android Travel Planner Application
-Rozbudowana aplikacja ułatwiająca planowanie podróży grupie osób przeznaczona na urządzania mobilne z systemem Android.
-Posiada główne funkcjonalności takie jak czat, forum, galeria zdjęć, plan podróży, ToDo list and settlements.
+Extensive application which helps to plan grooup trips created for Android devices. 
+The app offers functions such as chat, forum, gallery, trip plan, to do list and settlements.
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -14,11 +14,11 @@ Posiada główne funkcjonalności takie jak czat, forum, galeria zdjęć, plan p
 
 
 ## General Information
-Projekt był rozwijany w 4osobowym zespole w ramach pracy na uczelni. Aplikacja stara się rozwiązać problem skutecznej
-organizacji wyjazdów turystycznych. W ramach rowiązania problemu powstała apliakcja łącząca uczestników wyjazdu i ułatwiająca organizację.
-Aplikacja ma ułatwiać kontakt pomiędzy osobami biorącymi udział w wyjeździe, umożliwić ustalenie planuwycieczki oraz planu przygotowań
-i rozdzielić obowiązki między uczestników. Ponadto w aplikacji użytkownicy mogą na bieżąco rejestrować swoje wydatki,
-co ułatwi rozliczenie kosztów wycieczki, jak także dzielić się z innymi swoimi zdjęciami z wyjazdu. 
+The project was developed in a group of four people as an university project aimed at solving a problem of effective trip planning. 
+The authors created an app that connects trip participants and helps in organiziation.
+The app allows the travellers to contact with each other, make a plan of a trip plan as well as to do list and split respontibiities between participants. 
+What is more, the users can record their expenses what helps to settle the costs. 
+An addicional advantage of the app is photo gallery, where the users can post pictures from the trip. 
 
 
 ## Technologies Used
@@ -33,28 +33,28 @@ co ułatwi rozliczenie kosztów wycieczki, jak także dzielić się z innymi swo
 
 ## Features
 List the ready features here:
-* czat i forum
-* galeria zdjęć
-* tworzenie planu wycieczki
-* mapa z trasą wycieczki
-* TODO list and TO TAKE list
-* prowadzenie rozliczeń
-* dodawanie rozliczeń
-* zapraszanie innych użytkowników do wycieczki
-* założenie konta
-* powiadomienia
-* udostępnianie lokalizacji innym uczestnikom
+* chat and forum
+* photo gallery
+* making a plan of a trip 
+* maps with a trip route
+* TO-DO list and TO-TAKE list
+* financial settlements
+* adding expenses to the list of settlements
+* inviting new users to a trip 
+* creating an account
+* notifications
+* sharing the location with other participants 
  
 
 ## Screenshots
-Application screen review
-### Główny ekran aplikacji
+Application screen presentation
+### Application main screen
 
 <p align="center">
 	<img src="./ZPI/screenshot/app_main_screen.png" width="250" >
 </p>
 
-### Ekrany wycieczki
+### Overview of application screens
 
 <p align="center">
 	<img src="./ZPI/screenshot/trip_main_screen.png" width="250">
@@ -62,6 +62,7 @@ Application screen review
 	<img src="./ZPI/screenshot/trip_plan_screen.png" width="250">
 	<img src="./ZPI/screenshot/map_screen.png" width="250">
 	<img src="./ZPI/screenshot/settlements_screen.png" width="250">
+	<img src="./ZPI/screenshot/chat_screen.png" width="250">
 </p>
 
 ## Setup
@@ -70,24 +71,23 @@ Application screen review
 3. Select one of the sample directories from this repository
 
 Alternatively, use the `gradlew build` command to build the project directly
-
-Konieczne jest połączenie projektu z bazą danych oraz z usługami Google Maps, aby możliwe było korzystanie w pełni z apliakcji.
-Aby aplikacja mogła korzystać z bazy danych, pliku [BaseConnection.java](./ZPI/app/src/main/java/com/example/zpi/data_handling/BaseConnection.java) należy ustwić _connection URL_,
-_username_ and _password_ waszej bazy danych. Kolejnym krokiem jest utworzenie konta w Google Cloud Platform według instrukcji
-na stronie [cloud.google.com](https://cloud.google.com/apigee/docs/hybrid/v1.3/precog-gcpaccount) i stworzenie projektu.
-W projekcie należyodszukać i aktywować następujące interfejsy API _Directions API_, _Maps SDK for Android_ and _Places API_.
-Gdy interfejsy są aktywne w projekcie w pliku [strings.xml](./ZPI/app/src/main/res/values/strings.xml) należy ustawić klucz API wygenerowany dla naszego projektu.
+ 
+It is nesessary to connect the project with database and Google Maps services to fully use the Android Travel Planner Aplicaton. 
+So that the app could use the database in a file [BaseConnection.java](./ZPI/app/src/main/java/com/example/zpi/data_handling/BaseConnection.java), _connection URL_,
+_username_ and _password_ of the data base have to be set. The next step is to create an account on Google Cloud Platform 
+following the instruction here: [cloud.google.com](https://cloud.google.com/apigee/docs/hybrid/v1.3/precog-gcpaccount) and create a project. 
+In the project proper interfaces should be found and activated API _Directions API_, _Maps SDK for Android_ and _Places API_. When the interfaces are activated, 
+in project files [strings.xml](./ZPI/app/src/main/res/values/strings.xml) individually generated API key should be set.
 
 ## Database
-Hostowana na https://www.db4free.net/  
+Hosting on: https://www.db4free.net/  
 Server: db4free.net  
 DB Name: zpi_test_db  
 Username: zpi_test_user  
 Password: zpi_test_password  
 Port number: 3306    
 
-Zapisywanie do bazy bedzie robione z użyciem DAO, które są w folderze repositories
-
+Saving in database will be done using DAO, which are found in repositories file.
 
 ## Project Status
 Project is: _complete_
@@ -95,12 +95,12 @@ Project is: _complete_
 
 ## Room for Improvement
 To do:
-* dodawanie kategorii wydatków i na ich podstawie tworzenie wykresów
-* obsługa urządzeń bez funkcji lokalizacji
+* adding expenses categories and on their bases creating charts
+* supporiting devices without the location function
 
 
-Do poprawy:
-* zarządzanie uczestnikami wycieczki
+Improvement:
+* trip participants management
 
 ## Contact
 Created by [@HKonstanty](https://github.com/HKonstanty/HKonstanty) - feel free to contact me!
