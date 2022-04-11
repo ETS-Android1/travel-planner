@@ -51,7 +51,7 @@ Application screen review
 ### Główny ekran aplikacji
 
 <p align="center">
-	<img src="travel-planner/ZPI/screenshot/app_main_screen.png" width="250" >
+	<img src="./ZPI/screenshot/app_main_screen.png" width="250" >
 </p>
 
 ### Ekrany wycieczki
@@ -59,7 +59,7 @@ Application screen review
 <p align="center">
 	<img src="./ZPI/screenshot/trip_main_screen.png" width="250">
 	<img src="./ZPI/screenshot/todo_screen.png" width="250">
-	<img src`="./ZPI/screenshot/trip_plan_screen.png" width="250">
+	<img src="./ZPI/screenshot/trip_plan_screen.png" width="250">
 	<img src="./ZPI/screenshot/map_screen.png" width="250">
 	<img src="./ZPI/screenshot/settlements_screen.png" width="250">
 </p>
@@ -72,11 +72,11 @@ Application screen review
 Alternatively, use the `gradlew build` command to build the project directly
 
 Konieczne jest połączenie projektu z bazą danych oraz z usługami Google Maps, aby możliwe było korzystanie w pełni z apliakcji.
-Aby aplikacja mogła korzystać z bazy danych, pliku [BaseConnection](./ZPI/app/src/main/java/com/example/zpi/data_handling/BaseConnection.java) należy ustwić _connection URL_,
+Aby aplikacja mogła korzystać z bazy danych, pliku [BaseConnection.java](./ZPI/app/src/main/java/com/example/zpi/data_handling/BaseConnection.java) należy ustwić _connection URL_,
 _username_ and _password_ waszej bazy danych. Kolejnym krokiem jest utworzenie konta w Google Cloud Platform według instrukcji
 na stronie [cloud.google.com](https://cloud.google.com/apigee/docs/hybrid/v1.3/precog-gcpaccount) i stworzenie projektu.
 W projekcie należyodszukać i aktywować następujące interfejsy API _Directions API_, _Maps SDK for Android_ and _Places API_.
-Gdy interfejsy są aktywne w projekcie w pliku [strings](./ZPI/app/src/main/res/values/strings.xml) należy ustawić klucz API wygenerowany dla naszego projektu.
+Gdy interfejsy są aktywne w projekcie w pliku [strings.xml](./ZPI/app/src/main/res/values/strings.xml) należy ustawić klucz API wygenerowany dla naszego projektu.
 
 ## Database
 Hostowana na https://www.db4free.net/  
